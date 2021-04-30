@@ -1,0 +1,109 @@
+body{
+	font-family: 'Open sans';
+	background: rgb(220,220,220);
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+h1, h2{
+	font-family: Circular;
+}
+
+h1 {
+	color: rgb(50,109,168);
+	font-size:48px;
+}
+
+h2 {
+	font-weight: bold;
+	color: rgb(72,84,128);	
+}
+
+h3, h4 {
+	font-size: 19px;
+	font-family: Roboto;
+	
+}
+h3{
+	font-weight: normal;
+	color: rgb(100,100,100);
+}
+
+h4{
+	font-weight: lighter;
+}
+
+#btn-linkedin {
+	background-color: rgb(50,109,168);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	text-decoration: none; 
+}
+
+a:hover{
+color: grey;
+	opacity: 0.8;
+}
+
+#avatar {
+	border-radius: 50%;
+	width: 300px;
+}
+
+.outil {
+	width: 100px;
+
+}
+
+.container {
+	width: 1200px;
+	margin: 40px auto;
+}
+
+.card {
+	background: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	margin: 30px;
+	width: 10px auto;
+	text-align: center;
+
+}
+
+@media (max-width: 1200px) {
+	.container {
+		width: 700px;
+	}
+	}
+
+@media (max-width: 700px) {
+	.container {
+		width: 600px;
+	}
+	}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+	}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	padding: 10px;
+	display: inline;
+}
+.list-inline i {
+	padding: 10px;
+	font-size: 50px;
+	color: rgb(50,109,168);
+}
+#intro-text {
+	margin-bottom: 40px;
+}
